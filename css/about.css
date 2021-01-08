@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    background-blend-mode: darken;
+    color: #555;
+    font-family: cursive;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    color: lightcyan;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background: black;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#image{
+    background-image: url('../images/girl_with_laptop.png');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: 50%;
+    background-position: center;
+    min-height: 500px;
+    background-color:black;
+    padding-left: 2.5%;
+}
+
